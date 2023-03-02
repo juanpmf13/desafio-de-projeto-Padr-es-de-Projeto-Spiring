@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import one.digitalinnovation.labpadroesprojetospring.model.Cliente;
 import one.digitalinnovation.labpadroesprojetospring.service.ClienteService;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @RestController
+@EnableSwagger2
 @RequestMapping("clientes")
 public class ClienteRestController {
 
